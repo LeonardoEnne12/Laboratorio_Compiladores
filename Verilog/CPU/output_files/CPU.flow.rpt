@@ -1,0 +1,148 @@
+Flow report for CPU
+Tue Sep 20 20:47:22 2022
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Tue Sep 20 20:47:22 2022       ;
+; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Revision Name                      ; CPU                                         ;
+; Top-level Entity Name              ; CPU                                         ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE115F29C7                               ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 5,210                                       ;
+;     Total combinational functions  ; 4,208                                       ;
+;     Dedicated logic registers      ; 1,108                                       ;
+; Total registers                    ; 1108                                        ;
+; Total pins                         ; 108                                         ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 16,384                                      ;
+; Embedded Multiplier 9-bit elements ; 6                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 09/20/2022 20:45:42 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; CPU                 ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                           ;
++--------------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
+; Assignment Name                            ; Value                                  ; Default Value      ; Entity Name ; Section Id                        ;
++--------------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
+; ALM_REGISTER_PACKING_EFFORT                ; High                                   ; Medium             ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                      ; 102021902024743.166371754211274        ; --                 ; --          ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT                     ; Verilog Hdl                            ; --                 ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                        ; ModelSim-Altera (Verilog)              ; <None>             ; --          ; --                                ;
+; EDA_TIME_SCALE                             ; 1 ps                                   ; --                 ; --          ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP                     ; 85                                     ; --                 ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP                     ; 0                                      ; --                 ; --          ; --                                ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE                ; 1.2V                                   ; --                 ; --          ; --                                ;
+; OPTIMIZATION_MODE                          ; Aggressive Area                        ; Balanced           ; --          ; --                                ;
+; OPTIMIZE_HOLD_TIMING                       ; Off                                    ; All Paths          ; --          ; --                                ;
+; OPTIMIZE_IOC_REGISTER_PLACEMENT_FOR_TIMING ; Off                                    ; Normal             ; --          ; --                                ;
+; OPTIMIZE_MULTI_CORNER_TIMING               ; Off                                    ; On                 ; --          ; --                                ;
+; OPTIMIZE_TIMING                            ; Off                                    ; Normal compilation ; --          ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS             ; Half Signal Swing                      ; --                 ; --          ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS             ; Half Signal Swing                      ; --                 ; --          ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS            ; Half Vccio                             ; --                 ; --          ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS            ; Half Vccio                             ; --                 ; --          ; --                                ;
+; PARTITION_COLOR                            ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL        ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
+; PARTITION_NETLIST_TYPE                     ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC_FOR_AREA    ; On                                     ; Off                ; --          ; --                                ;
+; POWER_BOARD_THERMAL_MODEL                  ; None (CONSERVATIVE)                    ; --                 ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION              ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                 ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY                   ; output_files                           ; --                 ; --          ; --                                ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL           ; MINIMUM                                ; Normal             ; --          ; --                                ;
++--------------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:26     ; 1.0                     ; 946 MB              ; 00:00:45                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 1037 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 1053 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 1043 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 1050 MB             ; 00:00:02                           ;
+; Total                ; 00:00:32     ; --                      ; --                  ; 00:00:51                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++----------------------+------------------+----------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++----------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis ; leoenne-S550CA   ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; leoenne-S550CA   ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; leoenne-S550CA   ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; leoenne-S550CA   ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
+; EDA Netlist Writer   ; leoenne-S550CA   ; Ubuntu 20.04.4 ; 20         ; x86_64         ;
++----------------------+------------------+----------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off CPU -c CPU --vector_source=/home/leoenne/Documentos/Lab_Computacao/Verilog/CPU/Waveform.vwf --testbench_file=/home/leoenne/Documentos/Lab_Computacao/Verilog/CPU/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=/home/leoenne/Documentos/Lab_Computacao/Verilog/CPU/simulation/qsim/ CPU -c CPU
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off CPU -c CPU --vector_source=/home/leoenne/Documentos/Lab_Computacao/Verilog/CPU/Waveform.vwf --testbench_file=/home/leoenne/Documentos/Lab_Computacao/Verilog/CPU/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=/home/leoenne/Documentos/Lab_Computacao/Verilog/CPU/simulation/qsim/ CPU -c CPU
+
+
+

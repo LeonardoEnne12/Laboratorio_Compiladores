@@ -1,0 +1,61 @@
+0 ADDI, $sp, $zero, 0
+1 J, main
+. fatorial
+2 STORE, $a0, $sp, 0
+3 LOAD, $t0, $sp, 1
+4 ADDI, $t1, $zero, 1
+5 ADD, $t0, $t1, $zero
+6 STORE, $t0, $sp, 1
+7 LOAD, $t2, $sp, 0
+8 ADDI, $t3, $zero, 0
+9 BNEQ, $t2, $t3, L0
+10 ADDI, $t5, $zero, 1
+11 ADD, $v0, $t5, $zero
+12 JR, $ra
+. L0
+13 LOAD, $t6, $sp, 0
+14 ADDI, $t7, $zero, 1
+15 BNEQ, $t6, $t7, L1
+16 ADDI, $t9, $zero, 1
+17 ADD, $v0, $t9, $zero
+18 JR, $ra
+19 J, L2
+. L1
+. L3
+20 LOAD, $t10, $sp, 0
+21 ADDI, $t11, $zero, 1
+22 SGT, $t12, $t10, $t11
+23 BEQ, $t12, $zero, L4
+24 LOAD, $t13, $sp, 1
+25 LOAD, $t14, $sp, 1
+26 LOAD, $t15, $sp, 0
+27 MUL, $t16, $t14, $t15
+28 ADD, $t13, $t16, $zero
+29 STORE, $t13, $sp, 1
+30 LOAD, $t0, $sp, 0
+31 LOAD, $t1, $sp, 0
+32 ADDI, $t2, $zero, 1
+33 SUB, $t3, $t1, $t2
+34 ADD, $t0, $t3, $zero
+35 STORE, $t0, $sp, 0
+36 J, L3
+. L4
+37 LOAD, $t4, $sp, 1
+38 ADD, $v0, $t4, $zero
+39 JR, $ra
+. L2
+40 JR, $ra
+. main
+41 LOAD, $t5, $sp, 0
+42 IN, $t6
+43 ADD, $t5, $t6, $zero
+44 STORE, $t5, $sp, 0
+45 LOAD, $t7, $sp, 0
+46 ADD, $a0, $t7, $zero
+47 ADDI, $sp, $sp, 1
+48 JAL, fatorial
+49 SUBI, $sp, $sp, 1
+50 ADD, $t8, $v0, $zero
+51 ADD, $a0, $t8, $zero
+52 OUT, $a0
+53 HLT

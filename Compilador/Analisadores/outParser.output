@@ -1,0 +1,47 @@
+Tipo: inteiro
+	Funcao: fatorial
+		Tipo: inteiro
+			Parametro: n fatorial 1
+		Tipo: inteiro
+			Variavel: x fatorial 1 1
+		Atribuicao
+			ID: x
+			Constante: 1
+		If 1 0
+			Operacao: Simbolo: ==
+				ID: n
+				Constante: 0
+			Return
+				Constante: 1
+		If 1 2
+			Operacao: Simbolo: ==
+				ID: n
+				Constante: 1
+			Return
+				Constante: 1
+			While
+				Operacao: Simbolo: >
+					ID: n
+					Constante: 1
+				Atribuicao
+					ID: x
+					Operacao: Simbolo: *
+						ID: x
+						ID: n
+				Atribuicao
+					ID: n
+					Operacao: Simbolo: -
+						ID: n
+						Constante: 1
+			Return
+				ID: x
+	Tipo: void
+		Funcao: main
+			Tipo: inteiro
+				Variavel: n main 1 1
+			Atribuicao
+				ID: n
+				Chamada de Funcao: input 
+			Chamada de Funcao: output 
+				Chamada de Funcao: fatorial 
+					ID: n

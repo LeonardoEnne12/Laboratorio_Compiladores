@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Sep 20 20:46:07 2022
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : CPU
+Top-level Entity Name : CPU
+Family : Cyclone IV E
+Total logic elements : 5,210
+    Total combinational functions : 4,208
+    Dedicated logic registers : 1,108
+Total registers : 1108
+Total pins : 108
+Total virtual pins : 0
+Total memory bits : 16,384
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0

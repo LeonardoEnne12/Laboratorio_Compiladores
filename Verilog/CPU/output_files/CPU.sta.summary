@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -180.832
+TNS   : -5297.532
+
+Type  : Slow 1200mV 85C Model Setup 'datapath:data|reduz[1]'
+Slack : -176.066
+TNS   : -176085.553
+
+Type  : Slow 1200mV 85C Model Setup 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -167.071
+TNS   : -167.071
+
+Type  : Slow 1200mV 85C Model Setup 'Unidade_controle:UC|SIn'
+Slack : -0.584
+TNS   : -0.952
+
+Type  : Slow 1200mV 85C Model Hold 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -6.819
+TNS   : -90.110
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -2.850
+TNS   : -11.991
+
+Type  : Slow 1200mV 85C Model Hold 'datapath:data|reduz[1]'
+Slack : -1.447
+TNS   : -6.930
+
+Type  : Slow 1200mV 85C Model Hold 'Unidade_controle:UC|SIn'
+Slack : 1.044
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -45.528
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'datapath:data|reduz[1]'
+Slack : -2.693
+TNS   : -1367.732
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Unidade_controle:UC|SIn'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.069
+TNS   : -1.763
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -164.160
+TNS   : -4810.232
+
+Type  : Slow 1200mV 0C Model Setup 'datapath:data|reduz[1]'
+Slack : -160.092
+TNS   : -159997.692
+
+Type  : Slow 1200mV 0C Model Setup 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -151.684
+TNS   : -151.684
+
+Type  : Slow 1200mV 0C Model Setup 'Unidade_controle:UC|SIn'
+Slack : -0.431
+TNS   : -0.678
+
+Type  : Slow 1200mV 0C Model Hold 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -6.319
+TNS   : -83.939
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -2.596
+TNS   : -10.963
+
+Type  : Slow 1200mV 0C Model Hold 'datapath:data|reduz[1]'
+Slack : -1.298
+TNS   : -6.237
+
+Type  : Slow 1200mV 0C Model Hold 'Unidade_controle:UC|SIn'
+Slack : 0.961
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -45.484
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'datapath:data|reduz[1]'
+Slack : -2.649
+TNS   : -1367.556
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Unidade_controle:UC|SIn'
+Slack : -1.285
+TNS   : -2.721
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.226
+TNS   : -7.013
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -89.762
+TNS   : -2629.388
+
+Type  : Fast 1200mV 0C Model Setup 'datapath:data|reduz[1]'
+Slack : -88.039
+TNS   : -87752.484
+
+Type  : Fast 1200mV 0C Model Setup 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -83.601
+TNS   : -83.601
+
+Type  : Fast 1200mV 0C Model Setup 'Unidade_controle:UC|SIn'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -3.442
+TNS   : -46.017
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -1.740
+TNS   : -8.798
+
+Type  : Fast 1200mV 0C Model Hold 'datapath:data|reduz[1]'
+Slack : -0.840
+TNS   : -5.640
+
+Type  : Fast 1200mV 0C Model Hold 'Unidade_controle:UC|SIn'
+Slack : 0.484
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -38.253
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'datapath:data|reduz[1]'
+Slack : -1.000
+TNS   : -1060.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Unidade_controle:UC|SIn'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'datapath:data|Mem_instr:minst|altsyncram:rom_rtl_0|altsyncram_pp61:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.102
+TNS   : -2.671
+
+------------------------------------------------------------

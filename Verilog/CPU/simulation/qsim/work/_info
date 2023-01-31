@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/leoenne/Documentos/Lab_Computacao/Verilog/CPU/simulation/qsim
+vCPU
+Z1 !s110 1663717644
+!i10b 1
+!s100 DGA<@jSXJ5L3Z;IUSjBLR0
+ITcn2F=fjK]=9_OPZb@PX81
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1663717642
+Z3 8CPU.vo
+Z4 FCPU.vo
+L0 32
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1663717643.000000
+Z6 !s107 CPU.vo|
+Z7 !s90 -work|work|CPU.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@c@p@u
+vCPU_vlg_vec_tst
+R1
+!i10b 1
+!s100 ?Hi`V:HZXRVn>6d_7>czi0
+IGamV?_]czB2:jIM?<lfd03
+R2
+R0
+w1663717639
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R5
+r1
+!s85 0
+31
+!s108 1663717644.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R8
+R9
+n@c@p@u_vlg_vec_tst
+vhard_block
+!s110 1661883205
+!i10b 1
+!s100 GlReH?[Eo_MAT9AUcAT9F2
+Ik:e?[;bBUYbdl>;7eK[h;0
+R2
+R0
+w1661883203
+R3
+R4
+L0 106973
+R5
+r1
+!s85 0
+31
+!s108 1661883204.000000
+R6
+R7
+!i113 1
+R8
+R9

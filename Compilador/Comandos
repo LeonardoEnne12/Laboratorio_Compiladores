@@ -1,0 +1,16 @@
+rm -f lex.yy.c parser.tab.c parser.tab.h Exec *.o *.output
+flex scanner.l
+bison -v -d parser.y
+gcc -Wall -c *.c -O2
+gcc -Wall -g -o Exec *.o -ly -O2
+./Exec
+
+
+Caminho txt de testes:
+/home/leoenne/Documentos/Lab_Computacao/Compilador/Entradas/fibonacci.txt
+/home/leoenne/Documentos/Lab_Computacao/Compilador/Entradas/sort.txt
+/home/leoenne/Documentos/Lab_Computacao/Compilador/Entradas/gcd.txt
+/home/leoenne/Documentos/Lab_Computacao/Compilador/Entradas/fib.txt
+/home/leoenne/Documentos/Lab_Computacao/Compilador/Entradas/Vet.txt
+/home/leoenne/Documentos/Lab_Computacao/Compilador/Entradas/sort1.txt
+/home/leoenne/Documentos/Lab_Computacao/Compilador/Entradas/fat.txt

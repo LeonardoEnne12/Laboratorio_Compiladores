@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at CPU.v(130): always construct contains both blocking and non-blocking assignments File: /home/leoenne/Documentos/Lab_Computacao/Verilog/CPU/CPU.v Line: 130

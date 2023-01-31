@@ -1,0 +1,17 @@
+int area ( int a, int b) {
+int x ; 
+
+x = a * b;
+
+return x;
+
+}
+void main ( void ) {
+int largura;
+int comprimento;
+
+largura = input () ;
+comprimento = input () ;
+
+output ( area( largura, comprimento) ) ;
+}

@@ -1,0 +1,417 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "out[16]",
+					"strict" : false
+				},
+				{
+					"name" : "out[17]",
+					"strict" : false
+				},
+				{
+					"name" : "out[18]",
+					"strict" : false
+				},
+				{
+					"name" : "out[19]",
+					"strict" : false
+				},
+				{
+					"name" : "out[20]",
+					"strict" : false
+				},
+				{
+					"name" : "out[21]",
+					"strict" : false
+				},
+				{
+					"name" : "out[22]",
+					"strict" : false
+				},
+				{
+					"name" : "out[23]",
+					"strict" : false
+				},
+				{
+					"name" : "out[24]",
+					"strict" : false
+				},
+				{
+					"name" : "out[25]",
+					"strict" : false
+				},
+				{
+					"name" : "out[26]",
+					"strict" : false
+				},
+				{
+					"name" : "out[27]",
+					"strict" : false
+				},
+				{
+					"name" : "out[28]",
+					"strict" : false
+				},
+				{
+					"name" : "out[29]",
+					"strict" : false
+				},
+				{
+					"name" : "out[30]",
+					"strict" : false
+				},
+				{
+					"name" : "out[31]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[0]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[4]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[5]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[6]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[7]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[8]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[9]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[10]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[11]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[12]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[13]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[14]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[15]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[16]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[17]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[18]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[19]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[20]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[21]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[22]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[23]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[24]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[25]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[26]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[27]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[28]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[29]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[30]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[31]",
+					"strict" : false
+				},
+				{
+					"name" : "NotF",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDs[6]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "instruIN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "resetDis",
+					"strict" : false
+				},
+				{
+					"name" : "resetPC",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

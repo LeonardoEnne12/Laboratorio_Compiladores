@@ -1,0 +1,16 @@
+int areaCircun ( int a) {
+int x ; 
+
+x = a * 3 ;
+
+x = x * a;
+
+return x;
+
+}
+void main ( void ) {
+
+int raio;
+
+output ( areaCircun( raio ) ) ;
+}

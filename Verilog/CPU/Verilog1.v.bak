@@ -1,0 +1,25 @@
+module Mux_I();
+	
+	integer aux;
+	
+	reg[10:0] count;
+	
+	initial begin
+			count = 0;
+	end
+
+	always @ (posedge ctrl) begin
+		if (ctrl == 1 && count == 0)begin 
+			aux = 0;
+			//count = count + 15;
+		end
+		else begin
+			aux = count;
+			//count = count - 1;
+		end
+		
+	end
+	
+	
+	assign addrout = ctrl ? (INinstru + aux) : Regis;
+endmodule

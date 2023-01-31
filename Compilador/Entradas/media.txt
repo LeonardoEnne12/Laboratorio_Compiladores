@@ -1,0 +1,23 @@
+int media ( int a, int b, int c ) {
+int x ; 
+
+x = a + b;
+
+x = x + c;
+
+x = x/3;
+
+return x;
+
+}
+void main ( void ) {
+int a;
+int b;
+int c;
+
+a = input () ;
+b = input () ;
+c = input () ;
+
+output ( media ( a, b, c ) ) ;
+}

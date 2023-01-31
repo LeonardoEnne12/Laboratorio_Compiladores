@@ -1,0 +1,21 @@
+int volume ( int a, int b, int c) {
+int x ; 
+
+x = a * b;
+
+x = x * c;
+
+return x;
+
+}
+void main ( void ) {
+int largura;
+int comprimento;
+int altura;
+
+largura = input () ;
+comprimento = input () ;
+altura = input () ;
+
+output ( volume( largura, comprimento, altura) ) ;
+}
